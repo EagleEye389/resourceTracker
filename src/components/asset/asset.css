@@ -1,0 +1,27 @@
+.container {
+  text-align: center;
+  padding: 2rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 768px) and (orientation: portrait) {
+    /* CSS rules for tablet devices go here */
+    .container {
+        padding: 2rem;
+      }      
+  }
+
+.container .MuiOutlinedInput-root {
+    max-width: 300px;
+}
+
+.container .selectDropDown {
+ display: flex;
+}
+
+.container .MuiSelect-select {
+    text-align: left;
+}
+
+.container .MuiFormLabel-root {
+    text-align: left;
+}
